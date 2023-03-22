@@ -1,0 +1,235 @@
+.setanimationshow {
+    position: relative;
+    animation-name: formsend;
+    animation-duration: 2s;
+}
+.autho_css {
+    min-height: 62vh;
+    max-height: 62vh;
+    overflow-y: scroll;
+}
+.mh-71vh {
+    min-height: 71vh !important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+.bgr-selected {
+    background-color: #e0dedc;
+}
+.bgr-selected2 {
+    background-color: #e0dedc;
+}
+.poiter {
+    cursor: pointer;
+}
+.imgcover > img {
+    object-fit: cover;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(153, 147, 147);
+    border-radius: 5px;
+}
+
+@keyframes formsend {
+    0% {
+        opacity: 0;
+        left: 0px;
+        top: -10px;
+    }
+
+    25% {
+        opacity: 1;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#adddropdown {
+    top: -100%;
+}
+
+#btn-edit,
+#btn-del {
+    cursor: pointer;
+}
+
+.text-muted {
+    /* display: none; */
+}
+.h-100 {
+    height: 100%;
+}
+
+#adddropdown {
+    top: -10%;
+    -webkit-animation-name: rightanimationend;
+    -webkit-animation-duration: 0.4s;
+    animation-name: rightanimation;
+    animation-duration: 0.4s;
+}
+
+#offcanvasNavbar {
+    width: 40%;
+}
+#offcanvasRight {
+    width: 50%;
+}
+.btn-close {
+    color: #524f4c !important;
+}
+
+.swal2-cancel {
+    margin-right: 10% !important;
+}
+
+#btn-submit-add {
+    text-align: center;
+}
+
+#offcanvasNavbarut,
+#offcanvasNavbareditcv {
+    width: 50%;
+}
+
+#offcanvasNavbarupdate {
+    width: 70%;
+}
+#offcanvas_update_equipment_detail,
+#offcanvas_update_equipment_form {
+    width: 82%;
+}
+#offcanvasNavbarevaluatecv,
+#offcanvasNavbarInterview,
+#offcanvasNavbarOffer {
+    width: 78%;
+}
+#offcanvas_allocation,
+#offcanvas_device_recall {
+    width: 64%;
+}
+.none-scroll-x {
+    overflow-x: hidden !important;
+}
+.add-scroll-y {
+    overflow-y: scroll !important;
+}
+.box-shadow-items {
+    -webkit-box-shadow: 0px 0px 19px 1px rgba(8, 1, 1, 0.43);
+    box-shadow: 0px 0px 19px 1px rgba(8, 1, 1, 0.43);
+    border-radius: 10px;
+}
+#offcanvasNavbarphongvan {
+    width: 30%;
+}
+.btn-animation-top {
+    position: relative;
+    animation-name: animation-right;
+    animation-duration: 0.5s;
+}
+
+@keyframes animation-right {
+    0% {
+        left: -200px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+.table-animation-bottom {
+    position: relative;
+    animation-name: animation-right-bottom;
+    animation-duration: 0.5s;
+}
+.btn-svg-focus:focus {
+    width: 35px;
+    height: 35px;
+}
+@keyframes animation-right-bottom {
+    0% {
+        left: 0px;
+        bottom: -1000px;
+    }
+    100% {
+        left: 0px;
+        bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #offcanvasNavbarupdate,
+    #offcanvasNavbarevaluatecv,
+    #offcanvasNavbarInterview,
+    #offcanvasNavbar {
+        width: 78%;
+    }
+}
+.ob-cover {
+    object-fit: cover !important;
+}
+@media only screen and (max-width: 1200px) {
+    #offcanvas_update_equipment_detail,
+    #offcanvas_update_equipment_form,
+    #offcanvasNavbarupdate,
+    #offcanvasNavbarevaluatecv,
+    #offcanvasNavbarInterview,
+    #offcanvasRight,
+    #offcanvas_allocation,
+    #offcanvas_device_recall,
+    #offcanvasNavbarut,
+    #offcanvasNavbar {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #imgupdate {
+        width: 12rem;
+        height: 17rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #offcanvasNavbarphongvan {
+        width: 100%;
+    }
+}
+
+#imgupdate {
+    color: bisque;
+    border: 1px solid #b3aea7;
+    width: 18rem;
+    height: 23rem;
+    margin-left: 8%;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+.bg-blue {
+    background-color: rgb(107, 107, 136);
+}
+.bg-dark {
+    background-color: darkgray;
+}
+.mh-20 {
+    min-height: 200px;
+}
+.mh-200 {
+    min-height: 200px;
+}
+.mh-2000 {
+    min-height: 2000px;
+}
+.btn-add-update {
+    margin: 25px;
+    height: 45px;
+    width: 80px;
+    margin-top: 35px;
+    margin-bottom: 18px;
+}
+.cusor-poiter {
+    cursor: pointer;
+}
